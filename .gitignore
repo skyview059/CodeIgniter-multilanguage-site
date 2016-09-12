@@ -48,3 +48,4 @@ uploads
 application/session
 .gitignore
 application/cache
+/nbproject/private/
