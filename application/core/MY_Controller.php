@@ -181,6 +181,8 @@ class Public_Controller extends MY_Controller
                 $banned_ips[] = $ip->ip;
             }
         }
+        
+        
         if(in_array($_SERVER['REMOTE_ADDR'],$banned_ips))
         {
             echo 'You are banned from this site.';

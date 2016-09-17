@@ -6,12 +6,12 @@
         <div class="form-group">
             <?php echo form_label('Username','identity');?>
             <?php echo form_error('identity');?>
-            <?php echo form_input('identity','','class="form-control"');?>
+            <?php echo form_input('identity','administrator','class="form-control"');?>
         </div>
         <div class="form-group">
             <?php echo form_label('Password','password');?>
             <?php echo form_error('password');?>
-            <?php echo form_password('password','','class="form-control"');?>
+            <?php echo form_password('password','password','class="form-control"');?>
         </div>
         <div class="form-group">
             <label>
